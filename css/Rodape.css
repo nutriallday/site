@@ -1,0 +1,182 @@
+/*############################  Definições gerais do Rodape ###############################*/
+
+
+/*###########  Rodapé  ############*/
+
+footer{
+	background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Pequenos Demais (xs) --- (Smartphone retrato, Menor que 576px) */
+@media (max-width: 575.98px) {
+
+	/*###########  Rodapé  ############*/
+
+	footer{}
+
+}/* Dispositivos Pequenos Demais (xs) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Pequenos (sm) --- (Smartphone deitado, de 576px para cima) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*###########  Rodapé  ############*/
+
+	footer{}
+
+}/* Dispositivos Pequenos (sm) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Médios (md) --- (tablets, de 768px para cima) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*###########  Rodapé  ############*/
+
+	footer{}
+
+}/* Dispositivos Médios (md) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Grandes (lg) --- (desktops, de 992px para cima) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*###########  Rodapé  ############*/
+
+	footer{}
+
+}/* Dispositivos Grandes (lg) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Extra Grandes (xl) --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1200px) and (max-width: 1599.98px){
+
+	/*###########  Rodapé  ############*/
+
+	footer{}
+
+}/* Dispositivos Extra Grandes (xl) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Super Extra Grandes --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1600px) {
+
+	/*###########  Rodapé  ############*/
+
+	footer{}
+
+}/* Dispositivos Super Extra Grandes */

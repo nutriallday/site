@@ -1,0 +1,214 @@
+/*############################  Definições gerais do cabeçalho ###############################*/
+
+
+/*###########  Cabeçalho  ############*/
+
+header{
+width: 100%;
+height: 60px;
+
+background-image: url("../imagens/FundoCabecalho.png");
+background-color: rgba(1,1,1,0.8) !important;
+}
+
+	/*--------  logo do cabeçalho  ---------*/
+	#logoCabecalho{
+	}
+	#logoCabecalho img{
+	}
+
+	#logoCabecalho2{
+		width:300px;
+		background-color: red;
+	}
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/*Folha de estilo para configuração em diferentes tipos de telas*/
+
+/* Dispositivos Pequenos Demais (xs) --- (Smartphone retrato, Menor que 576px) */
+@media (max-width: 575.98px) {
+
+	/*###########  Cabeçalho  ############*/
+
+	header{}
+
+		/*--------  logo do cabeçalho  ---------*/
+		#logoCabecalho{}
+		#logoCabecalho img{}
+
+}/* Dispositivos Pequenos Demais (xs) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Pequenos (sm) --- (Smartphone deitado, de 576px para cima) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*###########  Cabeçalho  ############*/
+
+	header{}
+
+		/*--------  logo do cabeçalho  ---------*/
+		#logoCabecalho{}
+		#logoCabecalho img{}
+
+}/* Dispositivos Pequenos (sm) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Médios (md) --- (tablets, de 768px para cima) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*###########  Cabeçalho  ############*/
+
+	header{}
+
+		/*--------  logo do cabeçalho  ---------*/
+		#logoCabecalho{}
+		#logoCabecalho img{}
+
+}/* Dispositivos Médios (md) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Grandes (lg) --- (desktops, de 992px para cima) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*###########  Cabeçalho  ############*/
+
+	header{}
+
+		/*--------  logo do cabeçalho  ---------*/
+		#logoCabecalho{}
+		#logoCabecalho img{}
+
+}/* Dispositivos Grandes (lg) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Extra Grandes (xl) --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1200px) and (max-width: 1599.98px){
+
+	/*###########  Cabeçalho  ############*/
+
+	header{}
+
+		/*--------  logo do cabeçalho  ---------*/
+		#logoCabecalho{}
+		#logoCabecalho img{}
+
+}/* Dispositivos Extra Grandes (xl) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Super Extra Grandes --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1600px) {
+
+	/*###########  Cabeçalho  ############*/
+
+	header{}
+
+		/*--------  logo do cabeçalho  ---------*/
+		#logoCabecalho{}
+		#logoCabecalho img{}
+
+}/* Dispositivos Super Extra Grandes */

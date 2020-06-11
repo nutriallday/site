@@ -1,0 +1,573 @@
+/*############################  Definições gerais do Menu Superior ###############################*/
+
+
+/*###########  Menu de navegação superior  ############*/
+
+#SupMenu{
+	background-image: url("../imagens/Menu.png");
+	background-color: rgba(117,156,162,0.9) !important;
+}
+
+	/*--------  logo do menu  ---------*/
+	#SuplogoMenu{}
+
+	/*--------  navegação do menu  ---------*/
+	#SupNavegacao{
+	}
+	#SupNavegacao a{
+	background-color: rgba(114,150,133,1) !important;
+	margin-right: 4px;
+	border-radius: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	}
+
+	#SupNavItem1{}
+	#SupNavItem2{}
+	#SupNavItem3{}
+	#SupNavItem4{}
+	#SupNavItem5{}
+	#SupNavItem6{}
+	#SupNavItem7{}
+
+	/*--------  Barra de pesquisa  ---------*/
+	#SupPesquisa{
+		width: 110px;
+		margin-right:10px;
+		margin-bottom: 5px;
+	}
+
+	#SupBarradePesquisa{
+		border-radius: 15px;
+	}
+
+	#SupBotaodePesquisa{
+		width: 100%;
+		border-radius: 10px;
+		margin-left: 5px;
+		border: 1px dashed black;
+		background-color: rgba(8,55,14,0.2) !important;
+	}
+
+	/*--------  Redes Sociais do menu superior  ---------*/
+	#SupMenuRedesSociais{
+		margin-right: 10px;
+	}
+	#SupMenuRedesSociais a{
+		padding: 3px;
+		color: white;
+	}
+
+	#SupAgendeOAtendimento{}
+	#SupAgendeOAtendimento a{
+		border-radius: 10px;
+		margin-top: 3px;
+		margin-right: 10px;
+		padding: 5px;
+		background-color: rgba(168,35,35,0.7);
+	}
+	#SupAgendeOAtendimento a:hover{
+		background-color: rgba(168,35,35,1);
+	}
+
+	#SupFacebook{}
+	#SupFacebook a:hover{
+		color: #4267B2;
+	}
+
+	#SupTwitter{}
+	#SupTwitter a:hover{
+		color: #1DA1F2;
+	}
+
+	#SupYoutube{}
+	#SupYoutube a:hover{
+		color: #F20202;
+	}
+
+	#SupInstagram{}
+	#SupInstagram a:hover{
+		color: #CF3F85;
+	}
+
+	/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+	#SupIconePesquisa{
+		padding-top: 9px;
+		padding-bottom: 9px;
+		margin-right: 5px;
+	}
+
+	/*--------  Icone "Hamburger", da navegação superior  ---------*/
+	#SupIconeHamburger{}
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Pequenos Demais (xs) --- (Smartphone retrato, Menor que 576px) */
+@media (max-width: 575.98px) {
+
+	/*###########  Menu de navegação superior  ############*/
+
+	#SupMenu{}
+
+		/*--------  logo do menu  ---------*/
+		#SuplogoMenu{}
+
+		/*--------  navegação do menu  ---------*/
+		#SupNavegacao{}
+		#SupNavegacao a{}
+
+		#SupNavItem1{display: none;}
+		#SupNavItem2{}
+		#SupNavItem3{}
+		#SupNavItem4{}
+		#SupNavItem5{}
+		#SupNavItem6{}
+		#SupNavItem7{}
+
+		/*--------  Barra de pesquisa  ---------*/
+		#SupPesquisa{}
+
+		#SupBarradePesquisa{}
+
+		#SupBotaodePesquisa{}
+
+		/*--------  Redes Sociais do menu superior  ---------*/
+		#SupMenuRedesSociais{}
+		#SupMenuRedesSociais a{}
+
+		#SupAgendeOAtendimento{}
+		#SupAgendeOAtendimento a{}
+		#SupAgendeOAtendimento a:hover{}
+
+		#SupFacebook{}
+		#SupFacebook a:hover{}
+
+		#SupTwitter{display: none;}
+		#SupTwitter a:hover{}
+
+		#SupYoutube{display: none;}
+		#SupYoutube a:hover{}
+
+		#SupInstagram{}
+		#SupInstagram a:hover{}
+
+		/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+		#SupIconePesquisa{}
+
+		/*--------  Icone "Hamburger", da navegação superior  ---------*/
+		#SupIconeHamburger{}
+
+}/* Dispositivos Pequenos Demais (xs) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Pequenos (sm) --- (Smartphone deitado, de 576px para cima) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*###########  Menu de navegação superior  ############*/
+
+	#SupMenu{}
+
+		/*--------  logo do menu  ---------*/
+		#SuplogoMenu{}
+
+		/*--------  navegação do menu  ---------*/
+		#SupNavegacao{}
+		#SupNavegacao a{}
+
+		#SupNavItem1{display: none;}
+		#SupNavItem2{}
+		#SupNavItem3{}
+		#SupNavItem4{}
+		#SupNavItem5{}
+		#SupNavItem6{}
+		#SupNavItem7{}
+
+		/*--------  Barra de pesquisa  ---------*/
+		#SupPesquisa{}
+
+		#SupBarradePesquisa{}
+
+		#SupBotaodePesquisa{}
+
+		/*--------  Redes Sociais do menu superior  ---------*/
+		#SupMenuRedesSociais{}
+		#SupMenuRedesSociais a{}
+
+		#SupAgendeOAtendimento{}
+		#SupAgendeOAtendimento a{}
+		#SupAgendeOAtendimento a:hover{}
+
+		#SupFacebook{}
+		#SupFacebook a:hover{}
+
+		#SupTwitter{}
+		#SupTwitter a:hover{}
+
+		#SupYoutube{}
+		#SupYoutube a:hover{}
+
+		#SupInstagram{}
+		#SupInstagram a:hover{}
+
+		/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+		#SupIconePesquisa{}
+
+		/*--------  Icone "Hamburger", da navegação superior  ---------*/
+		#SupIconeHamburger{}
+
+}/* Dispositivos Pequenos (sm) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Médios (md) --- (tablets, de 768px para cima) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*###########  Menu de navegação superior  ############*/
+
+	#SupMenu{}
+
+		/*--------  logo do menu  ---------*/
+		#SuplogoMenu{}
+
+		/*--------  navegação do menu  ---------*/
+		#SupNavegacao{}
+		#SupNavegacao a{}
+
+		#SupNavItem1{display: none;}
+		#SupNavItem2{}
+		#SupNavItem3{}
+		#SupNavItem4{}
+		#SupNavItem5{}
+		#SupNavItem6{}
+		#SupNavItem7{}
+
+		/*--------  Barra de pesquisa  ---------*/
+		#SupPesquisa{}
+
+		#SupBarradePesquisa{}
+
+		#SupBotaodePesquisa{}
+
+		/*--------  Redes Sociais do menu superior  ---------*/
+		#SupMenuRedesSociais{}
+		#SupMenuRedesSociais a{}
+
+		#SupAgendeOAtendimento{}
+		#SupAgendeOAtendimento a{}
+		#SupAgendeOAtendimento a:hover{}
+
+		#SupFacebook{}
+		#SupFacebook a:hover{}
+
+		#SupTwitter{}
+		#SupTwitter a:hover{}
+
+		#SupYoutube{}
+		#SupYoutube a:hover{}
+
+		#SupInstagram{}
+		#SupInstagram a:hover{}
+
+		/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+		#SupIconePesquisa{}
+
+		/*--------  Icone "Hamburger", da navegação superior  ---------*/
+		#SupIconeHamburger{}
+
+/*########################################################################################*/
+}/* Dispositivos Médios (md) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Grandes (lg) --- (desktops, de 992px para cima) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/*###########  Menu de navegação superior  ############*/
+
+	#SupMenu{}
+
+		/*--------  logo do menu  ---------*/
+		#SuplogoMenu{display: none;}
+
+		/*--------  navegação do menu  ---------*/
+		#SupNavegacao{}
+		#SupNavegacao a{}
+
+		#SupNavItem1{}
+		#SupNavItem2{display: none;}
+		#SupNavItem3{}
+		#SupNavItem4{}
+		#SupNavItem5{}
+		#SupNavItem6{}
+		#SupNavItem7{}
+
+		/*--------  Barra de pesquisa  ---------*/
+		#SupPesquisa{
+			width: 170px;
+		}
+
+		#SupBarradePesquisa{}
+
+		#SupBotaodePesquisa{}
+
+		/*--------  Redes Sociais do menu superior  ---------*/
+		#SupMenuRedesSociais{}
+		#SupMenuRedesSociais a{}
+
+		#SupAgendeOAtendimento{}
+		#SupAgendeOAtendimento a{}
+		#SupAgendeOAtendimento a:hover{}
+
+		#SupFacebook{}
+		#SupFacebook a:hover{}
+
+		#SupTwitter{}
+		#SupTwitter a:hover{}
+
+		#SupYoutube{}
+		#SupYoutube a:hover{}
+
+		#SupInstagram{}
+		#SupInstagram a:hover{}
+
+		/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+		#SupIconePesquisa{}
+
+		/*--------  Icone "Hamburger", da navegação superior  ---------*/
+		#SupIconeHamburger{}
+
+}/* Dispositivos Grandes (lg) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Extra Grandes (xl) --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1200px) and (max-width: 1599.98px){
+
+	/*###########  Menu de navegação superior  ############*/
+
+	#SupMenu{}
+
+		/*--------  logo do menu  ---------*/
+		#SuplogoMenu{display: none;}
+
+		/*--------  navegação do menu  ---------*/
+		#SupNavegacao{}
+		#SupNavegacao a{}
+
+		#SupNavItem1{display: none;}
+		#SupNavItem2{}
+		#SupNavItem3{}
+		#SupNavItem4{}
+		#SupNavItem5{}
+		#SupNavItem6{}
+		#SupNavItem7{}
+
+		/*--------  Barra de pesquisa  ---------*/
+		#SupPesquisa{
+			width: 335px;
+		}
+
+		#SupBarradePesquisa{}
+
+		#SupBotaodePesquisa{}
+
+		/*--------  Redes Sociais do menu superior  ---------*/
+		#SupMenuRedesSociais{}
+		#SupMenuRedesSociais a{}
+
+		#SupAgendeOAtendimento{}
+		#SupAgendeOAtendimento a{}
+		#SupAgendeOAtendimento a:hover{}
+
+		#SupFacebook{}
+		#SupFacebook a:hover{}
+
+		#SupTwitter{}
+		#SupTwitter a:hover{}
+
+		#SupYoutube{}
+		#SupYoutube a:hover{}
+
+		#SupInstagram{}
+		#SupInstagram a:hover{}
+
+		/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+		#SupIconePesquisa{}
+
+		/*--------  Icone "Hamburger", da navegação superior  ---------*/
+		#SupIconeHamburger{}
+
+}/* Dispositivos Extra Grandes (xl) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Super Extra Grandes --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1600px) {
+
+	/*###########  Menu de navegação superior  ############*/
+
+	#SupMenu{}
+
+		/*--------  logo do menu  ---------*/
+		#SuplogoMenu{display: none;}
+
+		/*--------  navegação do menu  ---------*/
+		#SupNavegacao{}
+		#SupNavegacao a{}
+
+		#SupNavItem1{display: none;}
+		#SupNavItem2{}
+		#SupNavItem3{}
+		#SupNavItem4{}
+		#SupNavItem5{}
+		#SupNavItem6{}
+		#SupNavItem7{}
+
+		/*--------  Barra de pesquisa  ---------*/
+		#SupPesquisa{
+			width: 600px;
+		}
+
+		#SupBarradePesquisa{
+			width: 550px;
+		}
+
+		#SupBotaodePesquisa{}
+
+		/*--------  Redes Sociais do menu superior  ---------*/
+		#SupMenuRedesSociais{}
+		#SupMenuRedesSociais a{}
+
+		#SupAgendeOAtendimento{}
+		#SupAgendeOAtendimento a{}
+		#SupAgendeOAtendimento a:hover{}
+
+		#SupFacebook{}
+		#SupFacebook a:hover{}
+
+		#SupTwitter{}
+		#SupTwitter a:hover{}
+
+		#SupYoutube{}
+		#SupYoutube a:hover{}
+
+		#SupInstagram{}
+		#SupInstagram a:hover{}
+
+		/*--------  Icone "Lupa", da barra de pesquisa  ---------*/
+		#SupIconePesquisa{}
+
+		/*--------  Icone "Hamburger", da navegação superior  ---------*/
+		#SupIconeHamburger{}
+
+}/* Dispositivos Super Extra Grandes */

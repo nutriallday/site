@@ -1,0 +1,380 @@
+/*############################  Definições gerais da Página ###############################*/
+
+
+/*###########  Definições gerais  ############*/
+
+body, html{
+	background-color: rgba(8,55,14,0.3) !important;
+	height: 100%;
+}
+
+/*###########  Container  ############*/
+
+#container{
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: white;
+	height: 100%;
+}
+
+
+
+/*########  Area de Postagens  ##########*/
+
+article{
+margin: 0;
+font: 16px "Lato", sans-serif;
+color: #777;
+height: 100%;
+
+}
+
+.conteudo{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+.conteudo h3{
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+
+.conteudo p{
+	color: black;
+}
+
+/*parallax*/
+
+.caixa1, .caixa2, .caixa3, .caixa4 {
+position: relative;
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.caixa1{
+background-image: url("../imagenssss/imagem1.jpg");
+}
+
+.caixa2{
+background-image: url("../imagenssss/imagem2.jpg");
+}
+
+.caixa3{
+background-image: url("../imagenssss/imagem3.jpg");
+}
+
+.caixa4{
+background-image: url("../imagenssss/imagem4.jpg");
+}
+
+.conteudo-titulo{
+position: absolute;
+left: 0;
+top: 45%;
+width: 100%;
+text-align: center;
+}
+
+.conteudo-titulo span{
+opacity: 0.6; 
+color: #fff;
+background-color: #111;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 5px;
+}
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/*Folha de estilo para configuração em diferentes tipos de telas*/
+/* Dispositivos Pequenos Demais (xs) --- (Smartphone retrato, Menor que 576px) */
+@media (max-width: 575.98px) {
+
+
+	/* Inicio do gabarito de tela */
+	#xs{ background-color: red;}
+	#sm{ display: none; }
+	#md{ display: none; }
+	#lg{ display: none; }
+	#xl{ display: none; }
+	#sxl{display: none;}
+	p{margin-bottom: 0px;color: #434343;}
+	/* Fim do gabarito de tela */
+
+
+
+/*########################################################################################*/
+
+	/*###########  Definições gerais  ############*/
+
+	body{}
+
+	/*###########  Container  ############*/
+
+	#container{}
+
+
+/*########################################################################################*/
+}/* Dispositivos Pequenos Demais (xs) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Pequenos (sm) --- (Smartphone deitado, de 576px para cima) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/* Inicio do gabarito de tela */
+	#xs{display: none;}
+	#sm{background-color: blue;}
+	#md{display: none;}
+	#lg{display: none;}
+	#xl{display: none;}
+	#sxl{display: none;}
+	p{margin-bottom: 0px;color: #b6b6b6;}
+	/* Fim do gabarito de tela */
+
+
+
+
+/*########################################################################################*/
+
+	/*###########  Definições gerais  ############*/
+
+	body{}
+
+	/*###########  Container  ############*/
+
+	#container{}
+
+/*########################################################################################*/
+}/* Dispositivos Pequenos (sm) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Médios (md) --- (tablets, de 768px para cima) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/* Inicio do gabarito de tela */
+	#xs{display: none;}
+	#sm{display: none;}
+	#md{background-color: violet;}
+	#lg{display: none;}
+	#xl{display: none;}
+	#sxl{display: none;}
+	p{margin-bottom: 0px;color: #434343;}
+	/* Fim do gabarito de tela */
+
+
+
+
+/*########################################################################################*/
+
+	/*###########  Definições gerais  ############*/
+
+	body{}
+
+	/*###########  Container  ############*/
+
+	#container{}
+
+/*########################################################################################*/
+}/* Dispositivos Médios (md) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Grandes (lg) --- (desktops, de 992px para cima) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/* Inicio do gabarito de tela */
+	#xs{display: none;}
+	#sm{display: none;}
+	#md{display: none;}
+	#lg{background-color: orange;}
+	#xl{display: none;}
+	#sxl{display: none;}
+	p{margin-bottom: 0px;color: #434343;}
+	/* Fim do gabarito de tela */
+
+
+
+
+/*########################################################################################*/
+
+	/*###########  Definições gerais  ############*/
+
+	body{}
+
+	/*###########  Container  ############*/
+
+	#container{}
+
+/*########################################################################################*/
+}/* Dispositivos Grandes (lg) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Extra Grandes (xl) --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1200px) and (max-width: 1599.98px){
+
+	/* Inicio do gabarito de tela */
+	#xs{display: none;}
+	#sm{display: none;}
+	#md{display: none;}
+	#lg{display: none;}
+	#xl{background-color: purple;}
+	#sxl{display: none;}
+	p{margin-bottom: 0px;color: #b6b6b6;}
+	/* Inicio do gabarito de tela */
+
+
+
+
+/*########################################################################################*/
+
+	/*###########  Definições gerais  ############*/
+
+	body{}
+
+	/*###########  Container  ############*/
+
+	#container{}
+
+/*########################################################################################*/
+}/* Dispositivos Extra Grandes (xl) */
+
+
+
+
+
+
+
+
+
+
+/*########################################################################################*/
+
+
+
+
+
+
+
+
+
+
+/* Dispositivos Super Extra Grandes --- (desktops grandes, de 1200px para cima) */
+@media (min-width: 1600px) {
+
+	/* Inicio do gabarito de tela */
+	#xs{display: none;}
+	#sm{display: none;}
+	#md{display: none;}
+	#lg{display: none;}
+	#xl{display: none;}
+	#sxl{background-color: yellow;}
+	p{margin-bottom: 0px;color: #434343;}
+	/* Inicio do gabarito de tela */
+
+
+
+
+/*########################################################################################*/
+
+	/*###########  Definições gerais  ############*/
+
+	body{}
+
+	/*###########  Container  ############*/
+
+	#container{}
+
+/*########################################################################################*/
+}/* Dispositivos Super Extra Grandes */
